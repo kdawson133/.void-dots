@@ -1,0 +1,2 @@
+#!/bin/bash	
+xbps-query -m | xargs -n1 xbps-uhelper getpkgname | fzf --prompt="Select package(s) to remove: " --multi --margin 10% --padding 10% --border | xargs -ro sudo xbps-remove -Ro

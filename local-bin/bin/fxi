@@ -1,0 +1,2 @@
+#!/bin/bash	
+xbps-query -Rs '*' | awk '{print $2}' | fzf --prompt="Select package(s) to install: " --multi --margin 10% --padding 10% --border | xargs -ro sudo xbps-install -Sy
