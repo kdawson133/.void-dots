@@ -16,7 +16,7 @@ term = xterm-256color
 # Keybindings
 keybind = f11=toggle_fullscreen
 
-confirm-close-surface = fasle
+confirm-close-surface = false
 
 
 # Themes
