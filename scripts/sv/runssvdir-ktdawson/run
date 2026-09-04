@@ -1,0 +1,6 @@
+#!/bin/sh
+export USER="ktdawson"
+export HOME="/home/ktdawson"
+svdir="$HOME/.config/services"
+
+exec chpst -u "$USER" runsvdir "$svdir"

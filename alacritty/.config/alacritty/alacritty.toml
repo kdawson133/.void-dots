@@ -1,0 +1,26 @@
+[general]
+import = [
+  "dank-theme.toml"
+]
+
+[window]
+decorations = "Full"
+opacity = 0.8
+
+[window.padding]
+x = 10
+y = 10
+
+[font]
+size = 16
+
+[font.normal]
+family = "JetBrainsMono Nerd Font Mono"
+style = "regular"
+
+[cursor.style]
+shape = "Beam"
+blinking = "Always"
+
+[selection]
+save_to_clipboard = true
